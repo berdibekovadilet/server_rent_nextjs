@@ -1,0 +1,40 @@
+.section {
+   margin-top: 6rem;
+   background-image: url(/assets/bgBlue.svg);
+   padding: 2rem;
+   .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      background-color: var(--blue2);
+      padding: 4rem;
+      border-radius: 60px;
+
+      .row {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         .info {
+            width: 50%;
+
+            .subtitle {
+               margin: 2rem 0;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .container {
+      padding: 4rem 2rem !important;
+      .row {
+         flex-direction: column;
+         .info {
+            width: 100% !important;
+            .subtitle {
+               margin: 1rem !important;
+            }
+         }
+      }
+   }
+}

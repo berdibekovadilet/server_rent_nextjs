@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  --purple1: #5952d1;
+  --purple2: #6c63ff;
+  --blue1: #afc3e8;
+  --blue2: #f4f8ff;
+  --dark1: #262626;
+  --dark2: #2f2e41;
+  --white: #ffffff;
+}
+
+body {
+  color: var(--white);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--dark1);
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 3.9rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 37px;
+}
+
+h4 {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+p {
+  color: var(--dark2);
+}
+
+.container {
+  max-width: 1328px;
+  margin: auto;
+  padding: 0 24px;
+}
+
+.grow {
+  transition-duration: 0.5s;
+  transition-property: transform;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+
+
+// Media Queries
+
+// 900px
+
+@media (max-width: 900px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+// 768px
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+}
+
+// 480px
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+// 320px
+
+@media (max-width: 320px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
