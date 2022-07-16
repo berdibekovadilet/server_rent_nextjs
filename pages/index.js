@@ -2,12 +2,13 @@ import Head from "next/head";
 import Image from "next/image";
 import Advantages from "../components/server/Advantages";
 import Hero from "../components/server/Hero";
+import Responsibility from "../components/server/Responsibility";
 import WhyWe from "../components/server/WhyWe";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <Head>
         <title>Аренда серверов | Helpdesk</title>
         <meta name="description" content="Аренда серверов в Бишкеке" />
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <Advantages />
       <WhyWe />
-    </div>
+      <Responsibility />
+    </main>
   );
 }

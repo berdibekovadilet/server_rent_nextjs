@@ -10,7 +10,7 @@ const WhyWeCard = ({ cardData }) => {
         width="140px"
         height="140px"
       />
-      <h2 className={styles.title}>{cardData.title}</h2>
+      <h3 className={styles.title}>{cardData.title}</h3>
       <p className={styles.desc}>{cardData.desc}</p>
     </div>
   );
