@@ -10,10 +10,10 @@ const Hero = () => {
         <div className={styles.row}>
           <div className={styles.info}>
             <h1 className={styles.title}>Аренда серверов для 1С в Бишкеке</h1>
-            <p className={styles.subtitle}>
-              Аренда физических выделенных серверов в Бишкеке. Мощные серверы на
-              базе AMD и Intel® в наличии.
-            </p>
+            <h2 className={styles.subtitle}>
+              Аренда серверов на базе Intel в Бишкеке. Бесплатная консультация и
+              настройка сервера. Идеально для компаний которые работают на 1С.
+            </h2>
             <Button>
               <a
                 href="https://wa.me/+996552282553"
