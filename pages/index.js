@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Advantages from "../components/server/Advantages";
+import Contact from "../components/server/Contact";
 import Hero from "../components/server/Hero";
 import Responsibility from "../components/server/Responsibility";
 import WhyWe from "../components/server/WhyWe";
@@ -18,6 +19,7 @@ export default function Home() {
       <Advantages />
       <WhyWe />
       <Responsibility />
+      <Contact />
     </main>
   );
 }

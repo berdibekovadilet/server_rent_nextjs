@@ -17,7 +17,7 @@
             display: flex;
             align-items: center;
             color: var(--dark1);
-            margin-top: 5px;
+            margin-top: 15px;
             .text {
                margin-left: 15px;
             }
@@ -41,9 +41,6 @@
 
       .info {
          width: 100% !important;
-         .bullets {
-            margin-top: 15px !important;
-         }
       }
    }
 }
