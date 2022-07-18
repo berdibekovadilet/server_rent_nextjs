@@ -1,5 +1,4 @@
 import Image from "next/image";
-import icon from "/public/assets/iconTelepone.svg";
 import styles from "/styles/server/SocialCard.module.scss";
 const SocialCard = ({ dataCard }) => {
   return (

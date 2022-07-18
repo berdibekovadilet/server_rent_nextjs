@@ -5,6 +5,7 @@ import Contact from "../components/server/Contact";
 import Footer from "../components/server/Footer";
 import Hero from "../components/server/Hero";
 import Responsibility from "../components/server/Responsibility";
+import Tariffs from "../components/server/Tariffs";
 import WhyWe from "../components/server/WhyWe";
 import styles from "../styles/Home.module.scss";
 
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Advantages />
+      <Tariffs />
       <WhyWe />
       <Responsibility />
       <Contact />
