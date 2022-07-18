@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Resp from "/public/assets/Resp.svg";
-import { Parallax } from "react-scroll-parallax";
 import styles from "/styles/server/Responsibility.module.scss";
 
 const Responsibility = () => {
@@ -22,26 +21,22 @@ const Responsibility = () => {
     },
   ];
   return (
-    <Parallax speed={10}>
-      <section className={styles.container}>
-        <div className={styles.row}>
-          <div className={styles.imgContainer}>
-            <Image src={Resp} alt="serverImage" />
-          </div>
-          <div className={styles.info}>
-            <h2 className={styles.title}>
-              Несём ответственность за ваши данные
-            </h2>
-            {data.map((item) => (
-              <div className={styles.bullets} key={item.id}>
-                <Image src={item.icon} alt="icon" width="32px" height="32px" />
-                <h5 className={styles.text}>{item.text}</h5>
-              </div>
-            ))}
-          </div>
+    <section className={styles.container}>
+      <div className={styles.row}>
+        <div className={styles.imgContainer}>
+          <Image src={Resp} alt="serverImage" />
         </div>
-      </section>
-    </Parallax>
+        <div className={styles.info}>
+          <h2 className={styles.title}>Несём ответственность за ваши данные</h2>
+          {data.map((item) => (
+            <div className={styles.bullets} key={item.id}>
+              <Image src={item.icon} alt="icon" width="32px" height="32px" />
+              <h5 className={styles.text}>{item.text}</h5>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 

@@ -1,6 +1,5 @@
 import Title from "../Title";
 import WhyWeCard from "./WhyWeCard";
-import { Parallax } from "react-scroll-parallax";
 import styles from "/styles/server/WhyWe.module.scss";
 
 const WhyWe = () => {
@@ -25,7 +24,6 @@ const WhyWe = () => {
     },
   ];
   return (
-    <Parallax speed={-10}>
     <section className={styles.container}>
       <Title>Почему выбирают нас</Title>
       <div className={styles.row}>
@@ -34,7 +32,6 @@ const WhyWe = () => {
         ))}
       </div>
     </section>
-    </Parallax>
   );
 };
 export default WhyWe;

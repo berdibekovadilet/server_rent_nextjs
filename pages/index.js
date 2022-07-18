@@ -23,10 +23,8 @@ export default function Home() {
       <Advantages />
       <Tariffs />
       <WhyWe />
-      <div className="blueBackground">
-        <Responsibility />
-        <Contact />
-      </div>
+      <Responsibility />
+      <Contact />
       <Footer />
     </main>
   );
