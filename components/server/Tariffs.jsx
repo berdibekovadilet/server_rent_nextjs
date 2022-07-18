@@ -5,7 +5,7 @@ import styles from "/styles/server/Tariffs.module.scss";
 
 const Tariffs = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="tarif">
       <Title>Тарифы</Title>
       <div className={styles.row}>
         <div className={styles.tarifOne}>

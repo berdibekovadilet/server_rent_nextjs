@@ -4,6 +4,7 @@ import Advantages from "../components/server/Advantages";
 import Contact from "../components/server/Contact";
 import Footer from "../components/server/Footer";
 import Hero from "../components/server/Hero";
+import Navbar from "../components/server/Navbar";
 import Responsibility from "../components/server/Responsibility";
 import Tariffs from "../components/server/Tariffs";
 import WhyWe from "../components/server/WhyWe";
@@ -17,6 +18,7 @@ export default function Home() {
         <meta name="description" content="Аренда серверов в Бишкеке" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar />
       <Hero />
       <Advantages />
       <Tariffs />

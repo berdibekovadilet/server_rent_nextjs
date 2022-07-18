@@ -1,0 +1,117 @@
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 2rem;
+   height: 80px;
+   color: var(--dark1);
+   max-width: 1280px;
+   margin: 0 auto;
+
+   .logo {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      h3 {
+         font-size: 1.5rem;
+         margin-left: 3px;
+         transition: all 0.3s ease;
+         &:hover {
+            color: var(--blue1);
+         }
+      }
+   }
+
+   nav {
+      width: 40%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      a {
+         font-weight: 600;
+         transition: all 0.3s ease;
+
+         &:hover {
+            color: var(--blue1);
+         }
+      }
+
+      .button {
+         background-color: var(--blue1);
+         color: var(--white);
+         padding: 15px 25px;
+         border-radius: 15px;
+         transition: all 0.3s ease;
+
+         &:hover {
+            background-color: var(--dark1);
+            color: var(--white) !important;
+         }
+      }
+   }
+
+   .navBtn {
+      padding: 5px;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--dark1);
+      visibility: hidden;
+      opacity: 0;
+      font-size: 1.8rem;
+      display: none;
+   }
+}
+
+@media (max-width: 820px) {
+   .container {
+      nav {
+         justify-content: center !important;
+      }
+   }
+
+   .navBtn {
+      visibility: visible !important;
+      opacity: 1 !important;
+      display: block !important;
+   }
+
+   .menuList {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 60% !important;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: var(--blue2);
+      transition: 1s;
+      transform: translatex(100vh);
+      z-index: 99;
+   }
+   .menuListOpen {
+      transform: none;
+   }
+
+   .navCloseBtn {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+   }
+
+   .listItem {
+      font-size: 1.5rem;
+   }
+}
+
+@media (max-width: 768px) {
+   .navBtn {
+      font-size: 1.5rem !important;
+   }
+}
