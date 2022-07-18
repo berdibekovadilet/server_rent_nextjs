@@ -22,8 +22,8 @@ const Responsibility = () => {
     },
   ];
   return (
-    <section className={styles.container}>
-      <Parallax speed={20}>
+    <Parallax speed={20}>
+      <section className={styles.container}>
         <div className={styles.row}>
           <div className={styles.imgContainer}>
             <Image src={Resp} alt="serverImage" />
@@ -40,8 +40,8 @@ const Responsibility = () => {
             ))}
           </div>
         </div>
-      </Parallax>
-    </section>
+      </section>
+    </Parallax>
   );
 };
 
