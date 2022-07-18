@@ -4,7 +4,7 @@ import styles from "/styles/server/Navbar.module.scss";
 import Logo from "/public/assets/logoBlue.svg";
 import Image from "next/image";
 import Link from "next/link";
-import Button from "../Button";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -27,10 +27,10 @@ const Navbar = () => {
         } `}
       >
         <Link className={styles.listItem} href="#tarif">
-          Тарифы
+          <button onClick={() => setIsOpen(true)}>Тарифы</button>
         </Link>
         <Link className={styles.listItem} href="#contact">
-          Контакты
+          <button onClick={() => setIsOpen(true)}>Контакты</button>
         </Link>
         <Link className={styles.listItem} href="/itoutsource">
           ИТ-Аутсорс

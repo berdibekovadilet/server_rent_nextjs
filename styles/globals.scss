@@ -10,6 +10,10 @@
   --white: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--white);
   font-family: "Open Sans", sans-serif;
