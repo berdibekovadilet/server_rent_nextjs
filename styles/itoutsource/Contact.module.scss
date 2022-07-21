@@ -1,0 +1,30 @@
+.container {
+   background-color: var(--purple2);
+   padding: 20px;
+
+   .row {
+      padding: 4rem;
+
+      .socialContainer {
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+      }
+   }
+}
+
+@media (max-width: 820px) {
+   .row {
+      flex-direction: column;
+   }
+}
+
+@media (max-width: 767px) {
+   .row {
+      padding: 1rem !important;
+
+      .socialContainer {
+         flex-direction: column;
+      }
+   }
+}

@@ -1,0 +1,26 @@
+.wrapper {
+   background-color: var(--purple1);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   padding: 20px 40px;
+   border-radius: 20px;
+   margin-top: 32px;
+   transition: all 0.5s ease;
+
+   p {
+      color: var(--white);
+      margin-left: 10px;
+   }
+
+   &:hover {
+      background-color: var(--dark1);
+   }
+}
+
+@media (max-width: 767px) {
+   .wrapper {
+      padding: 20px 20px;
+   }
+}
