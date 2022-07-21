@@ -27,7 +27,7 @@ const Tariffs = () => {
             >
               <div className={styles.priceContainerBlue}>
                 <span className={styles.oldPrice}>7500</span>
-                <span className={styles.price}>5000 сом</span>
+                <span className={styles.price}>5900 сом</span>
               </div>
             </a>
           </div>
