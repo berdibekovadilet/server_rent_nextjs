@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Advantages from "../components/server/Advantages";
 import Contact from "../components/server/Contact";
 import Footer from "../components/server/Footer";

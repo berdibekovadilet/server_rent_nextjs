@@ -1,7 +1,7 @@
-import { ButtonBlue } from "../Button";
+import { ButtonPurple } from "../Button";
 import Image from "next/image";
-import HeroSvg from "/public/assets/HeroImageServer.svg";
-import styles from "../../styles/server/Hero.module.scss";
+import HeroSvg from "/public/assets/HeroImage.svg";
+import styles from "/styles/itoutsource/Hero.module.scss";
 
 const Hero = () => {
   return (
@@ -9,12 +9,11 @@ const Hero = () => {
       <div className={styles.container}>
         <div className={styles.row}>
           <div className={styles.info}>
-            <h1 className={styles.title}>Аренда серверов для 1С в Бишкеке</h1>
+            <h1 className={styles.title}>ИТ-обслуживание компаний в Бишкеке</h1>
             <h2 className={styles.subtitle}>
-              Аренда серверов на базе Intel в Бишкеке. Бесплатная консультация и
-              настройка сервера. Идеально для компаний которые работают на 1С.
+              Системное администрирование, it‑аутсорсинг и удаленная поддержка!
             </h2>
-            <ButtonBlue>
+            <ButtonPurple>
               <a
                 href="https://wa.me/+996552282553"
                 target="_blank"
@@ -22,7 +21,7 @@ const Hero = () => {
               >
                 Получить консультацию
               </a>
-            </ButtonBlue>
+            </ButtonPurple>
           </div>
           <div className={styles.imageContainer}>
             <Image src={HeroSvg} alt="serverImage" />

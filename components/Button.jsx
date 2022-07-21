@@ -1,9 +1,15 @@
 import styles from "../styles/button.module.scss";
 
-const Button = ({ children }) => {
+export const ButtonBlue = ({ children }) => {
   return (
     <button className={`${styles.button} ${styles.hollow}`}>{children}</button>
   );
 };
 
-export default Button;
+export const ButtonPurple = ({ children }) => {
+  return (
+    <button className={`${styles.buttonPurple} ${styles.hollowPurple}`}>
+      {children}
+    </button>
+  );
+};

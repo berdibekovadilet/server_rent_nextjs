@@ -1,9 +1,20 @@
-import React from 'react'
+import Head from "next/head";
+import Hero from "../components/itoutsource/Hero";
+
 
 const itoutsource = () => {
   return (
-    <h1>itoutsource</h1>
-  )
-}
+    <main>
+      <Head>
+        <title>ИТ аутсорс | Helpdesk</title>
+        <meta name="description" content="ИТ аутсорс и системный администратор в Бишкеке" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-export default itoutsource
+      <Hero />
+   
+    </main>
+  );
+};
+
+export default itoutsource;
