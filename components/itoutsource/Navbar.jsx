@@ -1,7 +1,7 @@
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 import styles from "/styles/itoutsource/Navbar.module.scss";
-// import Logo from "/public/assets/logoPurple.svg";
+import Logo from "/public/assets/logoPurple.svg";
 import Image from "next/image";
 import Link from "next/link";
 
