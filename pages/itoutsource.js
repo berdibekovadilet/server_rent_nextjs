@@ -5,6 +5,7 @@ import Footer from "../components/itoutsource/Footer";
 import Hero from "../components/itoutsource/Hero";
 import Navbar from "../components/itoutsource/Navbar";
 import Responsibility from "../components/itoutsource/Responsibility";
+import Services from "../components/itoutsource/Services";
 import WhyWe from "../components/itoutsource/WhyWe";
 
 const itoutsource = () => {
@@ -21,6 +22,7 @@ const itoutsource = () => {
       <Navbar />
       <Hero />
       <About />
+      <Services />
       <WhyWe />
       <Responsibility />
       <Contact />

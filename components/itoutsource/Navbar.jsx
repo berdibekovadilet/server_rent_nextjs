@@ -26,7 +26,7 @@ const Navbar = () => {
           isOpen ? styles.menuList : `${styles.menuList} ${styles.menuListOpen}`
         } `}
       >
-        <Link className={styles.listItem} href="#tarif">
+        <Link className={styles.listItem} href="#services">
           <button onClick={() => setIsOpen(true)}>Услуги</button>
         </Link>
         <Link className={styles.listItem} href="#contact">
