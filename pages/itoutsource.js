@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from "../components/itoutsource/Hero";
 import Navbar from "../components/itoutsource/Navbar";
+import Responsibility from "../components/itoutsource/Responsibility";
 import WhyWe from "../components/itoutsource/WhyWe";
 
 const itoutsource = () => {
@@ -17,6 +18,7 @@ const itoutsource = () => {
       <Navbar />
       <Hero />
       <WhyWe />
+      <Responsibility />
     </main>
   );
 };
