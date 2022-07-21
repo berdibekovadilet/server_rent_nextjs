@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Contact from "../components/itoutsource/Contact";
+import Footer from "../components/itoutsource/Footer";
 import Hero from "../components/itoutsource/Hero";
 import Navbar from "../components/itoutsource/Navbar";
 import Responsibility from "../components/itoutsource/Responsibility";
@@ -21,6 +22,7 @@ const itoutsource = () => {
       <WhyWe />
       <Responsibility />
       <Contact />
+      <Footer />
     </main>
   );
 };

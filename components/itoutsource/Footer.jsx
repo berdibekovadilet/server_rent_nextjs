@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import ITOut from "/public/assets/ITOut.svg";
-import styles from "/styles/server/Footer.module.scss";
+import serverPage from "/public/assets/serverPage.svg";
+import styles from "/styles/itoutsource/Footer.module.scss";
 
 const Footer = () => {
   return (
@@ -9,7 +9,8 @@ const Footer = () => {
       <div className={styles.row}>
         <div className={styles.info}>
           <h2 className={styles.title}>
-            ИТ-аутсорс и приходящий системный администратор в Бишкеке.
+            Аренда серверов для 1С в Бишкеке. Бесплатная консультация и
+            настройка.
           </h2>
           <Link href="/itoutsource" passHref>
             <a target="_blank" rel="noreferrer" className={styles.button}>
@@ -18,7 +19,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className={styles.imgContainer}>
-          <Image src={ITOut} alt="itoutsource" />
+          <Image src={serverPage} alt="itoutsource" />
         </div>
       </div>
     </section>
