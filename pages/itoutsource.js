@@ -1,4 +1,5 @@
 import Head from "next/head";
+import About from "../components/itoutsource/About";
 import Contact from "../components/itoutsource/Contact";
 import Footer from "../components/itoutsource/Footer";
 import Hero from "../components/itoutsource/Hero";
@@ -19,6 +20,7 @@ const itoutsource = () => {
       </Head>
       <Navbar />
       <Hero />
+      <About />
       <WhyWe />
       <Responsibility />
       <Contact />
