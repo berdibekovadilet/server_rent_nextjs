@@ -2,6 +2,7 @@
 # Live http://helpdesk.kg/
 
 ![Screen Banner](cover/1.png)
+![Screen Banner](cover/2.png)
 
 
 ## Getting Started
