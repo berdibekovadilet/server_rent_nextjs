@@ -1,6 +1,5 @@
 # Server Rent App
-# Live
-http://helpdesk.kg/
+# Live http://helpdesk.kg/
 
 ![Screen Banner](cover/1.png)
 
