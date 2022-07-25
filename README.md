@@ -1,8 +1,7 @@
 # Server Rent App
-# Live
-https://server-rent-nextjs.vercel.app/
+# Live http://helpdesk.kg/
 
-
+![Screen Banner](cover/1.png)
 
 
 ## Getting Started
