@@ -1,4 +1,4 @@
-# Server Rental App
+# Server Rental website
 # Live http://helpdesk.kg/
 
 ![Screen Banner](cover/1.png)
